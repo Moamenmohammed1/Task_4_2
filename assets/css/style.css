@@ -1,0 +1,254 @@
+:root {
+    --blue-color: #00aeff;
+    --white-color: #fff;
+    --grey-color: #f8f9fa;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* start header */
+header {
+    background-image: url(../imgs/hero-img.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-color: rgb(88 95 103 / 85%);
+    background-blend-mode: soft-light;
+    position: static !important;
+}
+
+header .top-navbar a {
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+header a:hover {
+    background-color: var(--blue-color);
+}
+
+
+header hr {
+    color: var(--white-color);
+}
+
+header nav a {
+    color: var(--white-color) !important;
+    width: max-content;
+}
+
+header .navbar button svg {
+    color: var(--white-color);
+}
+
+header .navbar button {
+    border: 1px solid var(--white-color);
+}
+
+header .navbar button:focus {
+    box-shadow: none;
+}
+
+header .hero {
+    color: var(--white-color);
+    margin-top: 25%;
+}
+
+.btn-mine {
+    color: var(--white-color) !important;
+    background-color: var(--blue-color) !important;
+}
+
+/* end header */
+
+/* Start browse-top-category section*/
+
+#browse-top-category .row .simplee-card {
+    background-color: var(--grey-color);
+    height: 82px;
+    width: 280px;
+}
+
+#browse-top-category .row .simplee-card svg {
+    background-color: var(--white-color);
+}
+
+#browse-top-category a {
+    text-decoration: none;
+    color: var(--blue-color);
+}
+/* End browse-top-category section*/
+
+/* Start become-an-instructor */
+
+#become-an-instructor {
+    background-color: var(--grey-color);
+    position: relative;
+}
+
+#become-an-instructor div {
+    position: relative;
+}
+
+#become-an-instructor img {
+    max-width: 100%;
+}
+
+/* End become-an-instructor */
+
+/* Start we-have-best-education */
+
+#we-have-best-education .card {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #a8a8a8;
+}
+
+#we-have-best-education svg {
+    border: 1px solid #a8a8a8;
+}
+
+/* End we-have-best-education */
+#education-for-tomorrows-leaders {
+    background-image:url(../imgs/img-school-1-min.jpg) ;
+    background-size: cover;
+    height: 80vh;
+    background-color: rgb(88 95 103 / 85%);
+    background-blend-mode: soft-light;
+    color: var(--white-color);
+}
+
+#the-right-course-for-you {
+    background-color: var(--grey-color);
+}
+#education-for-tomorrows-leaders p {
+    max-width: 800px;
+}
+
+#the-right-course-for-you span {
+    color: var(--blue-color);
+}
+
+#the-right-course-for-you .card-link {
+    text-decoration: none;
+    color: var(--blue-color);
+}
+
+#the-right-course-for-you .row .card .card-body .retch {
+    color: #fdd44a;
+}
+
+#about-us h1,h4 {
+    color: var(--blue-color);
+}
+
+#about-us .learn-more{
+    color: var(--blue-color) !important;
+    background-color: var(--white-color) !important;
+    border: 1px solid #00aeff !important;
+}
+
+#school-news {
+    background-color: var(--grey-color)
+}
+#school-news h1 {
+    color: var(--blue-color);
+}
+
+#school-news p {
+    max-width: 700px;
+}
+
+#school-news .row .col-lg-6 .card {
+    width: 100% !important;
+    height: 300px;
+    border: none;
+}
+
+#school-news .row .col-lg-6 .card .row {
+    height: 100%;
+}
+
+#school-news .card .row .col-3{
+    position: relative;
+}
+
+#school-news img {
+    object-fit: cover;
+    position: absolute;
+    
+}
+
+#school-news a {
+    text-decoration: none;
+    color: var(--blue-color);
+}
+
+#pricing .card {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #a8a8a8;
+}
+
+#pricing h1, h4 {
+    color: var(--blue-color);
+}
+#pricing h4 span {
+    color: #a8a8a8;
+    font-size: 16px;
+}
+
+#pricing .left, .right {
+    background-color: #fff !important;
+    color: #00aeff !important;
+    border: 1px solid #00aeff !important;
+}
+
+#pricing .row {
+    --bs-gutter-x: none;
+}
+
+#Testimonials {
+    background-color: var(--grey-color);
+}
+
+#Testimonials h1 {
+    color: var(--blue-color);
+}
+
+#Testimonials p {
+    max-width: 700px;
+}
+
+#Testimonials img {
+    width: 80px;
+}
+
+#Testimonials button {
+    background-color: var(--blue-color);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+#Testimonials .carousel-indicators {
+    position: static;
+}
+
+#why-choose-us img {
+    width: 100%;    
+}
+
+footer {
+    background-color: var(--blue-color);
+    color: var(--white-color);
+}
+
+footer svg {
+    background-color: var(--white-color);
+}
+footer img {
+    width: 100%;
+}
+
